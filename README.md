@@ -2,7 +2,7 @@
 
 # nekotaku-next
 
-TouchGal 是一个一站式 Galgame 文化社区。提供Galgame 论坛、Galgame 下载等服务。承诺永久免费, 高质量。为Galgame 爱好者提供一片净土！
+喵源领域是专注于高质量的Galgame文化的分享网站，提供最新最全的Galgame相关文件下载服务，助力将Galgame文化推向世界！
 
 ## 错误反馈
 

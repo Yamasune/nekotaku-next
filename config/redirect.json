@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "excludedDomains": [
+    "nullcloud.top",
+    "kungal.com"
+  ],
+  "delaySeconds": 5
+}

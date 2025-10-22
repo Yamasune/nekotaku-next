@@ -167,7 +167,7 @@ export const PublishResource = ({
         {creating && (
           <>
             <p>
-              我们正在将您的资源从服务器同步到云端，请稍后 ...
+              正在创建资源页面，请稍后...
             </p>
           </>
         )}

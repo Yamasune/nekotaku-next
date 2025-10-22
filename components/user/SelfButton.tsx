@@ -49,6 +49,17 @@ export const SelfButton = ({ user }: Props) => {
           申请成为创作者
         </Button>
       )}
+
+      {user.role >= 2 && user.role < 4 && (
+        <Button
+          startContent={<BadgeCheck className="size-4" />}
+          color="primary"
+          fullWidth
+          onPress={() => router.push('/edit/create')}
+        >
+          创建资源
+        </Button>
+      )}
     </div>
   )
 }

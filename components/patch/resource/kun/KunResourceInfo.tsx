@@ -20,10 +20,10 @@ export const KunResourceInfo = ({ resource }: Props) => {
         {resource.code && (
           <Snippet
             tooltipProps={{
-              content: '点击复制提取码'
+              content: '点击复制提取密码'
             }}
             size="sm"
-            symbol="提取码"
+            symbol="提取密码"
             color="primary"
             className="py-0"
           >
@@ -34,10 +34,10 @@ export const KunResourceInfo = ({ resource }: Props) => {
         {resource.password && (
           <Snippet
             tooltipProps={{
-              content: '点击复制解压码'
+              content: '点击复制解压密码'
             }}
             size="sm"
-            symbol="解压码"
+            symbol="解压密码"
             color="primary"
             className="py-0"
           >

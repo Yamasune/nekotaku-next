@@ -49,7 +49,7 @@ export const ResourceLinksInput = ({
     if (!links.length || size) {
       return
     }
-    if (links.some((link) => link.includes('pan.touchgal.net/s/'))) {
+    if (links.some((link) => link.includes('www.nullcloud.top/Game/'))) {
       checkLinkSize(links[0])
     }
   }, [links, setSize])

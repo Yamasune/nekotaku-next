@@ -20,16 +20,10 @@ export const ResourceTypeSelect = ({ section, control, errors }: Props) => {
   const user = useUserStore((state) => state.user)
 
   const calcDisabledKeys = () => {
-    if (user.role > 3 && section === 'patch') {
-      return []
+    if (user.role >= 2) {
+      return []  // 角色大于等于2时，所有选项可用
     }
-    if (user.role > 3 && section === 'galgame') {
-      return []
-    }
-    if (user.role > 1 && section === 'patch') {
-      return ['link']
-    }
-    return ['link']
+    return ['link']  // 角色小于2时，禁用link选项
   }
 
   return (

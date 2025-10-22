@@ -136,7 +136,7 @@ export const ResourceDetailsForm = ({
       render={({ field }) => (
         <Input
           {...field}
-          label="提取码"
+          label="提取密码"
           placeholder="如果资源的获取需要密码, 请填写密码"
           isInvalid={!!errors.password}
           errorMessage={errors.password?.message}
@@ -150,8 +150,8 @@ export const ResourceDetailsForm = ({
       render={({ field }) => (
         <Input
           {...field}
-          label="解压码"
-          placeholder="如果资源的解压需要解压码, 请填写解压码"
+          label="解压密码"
+          placeholder="如果资源的解压需要解压密码, 请填写解压密码"
           isInvalid={!!errors.code}
           errorMessage={errors.code?.message}
         />
